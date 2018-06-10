@@ -15,7 +15,7 @@ header {
   margin-top: -10px;
 }
 
-/*logo*/
+/* Header logo*/
 
 .logo {
   display: flex;
@@ -34,6 +34,8 @@ header {
   height: 60px;
 }
 
+/*Header Links*/
+
 nav {
   padding-right: 40px;
   display: block;
@@ -46,11 +48,12 @@ nav span {
 
 
 
-/* links */
+/*Header/Footer links */
 
 a {
   color: black;
 }
+
 
 
 
@@ -69,9 +72,8 @@ body {
   top: 70px;
   position: relative;
   width: 100%;
+  font-family: Georgia;
 }
-
-
 
 .column1 {
   width: 630px;
@@ -94,7 +96,7 @@ body {
   flex-shrink: 0;
 }
 
-
+/*encompases story 2 and 3 in column 1*/
 .horizontal {
   display: flex;
   justify-content: space-between;
@@ -102,20 +104,34 @@ body {
 
 
 
-/* stories */
+/*News stories */
 
 p {
-  font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
-
-
 h2 {
   font-size: 22px;
-  font-family: Georgia;
   font-weight: bold;
+}
+
+.tuna, .c1story4, .c1story5, .cat {
+  height: 300px;
+  font-weight: Bold;
+  font-size: 30px;
+  color: white;
+}
+
+.mainstory,
+.earth,
+.research,
+.cattext {
+  text-align: center;
+}
+
+#mainstory {
+  font-size: 40px;
 }
 
 .c1story2 {
@@ -126,10 +142,6 @@ h2 {
   width: 300px;
 }
 
-.tuna {
-  background-image: url("../Images/img-story-main.png");
-}
-
 .c1story4 {
   background-image: url("../Images/img-story-2.png");
 }
@@ -138,20 +150,12 @@ h2 {
   background-image: url("../Images/img-story-3.png");
 }
 
+.tuna {
+  background-image: url("../Images/img-story-main.png");
+}
+
 .cat {
   background-image: url("../Images/img-story-1.png");
-}
-
-.tuna, .c1story4, .c1story5, .cat {
-  height: 300px;
-  font-family: Georgia;
-  font-weight: Bold;
-  font-size: 30px;
-  color: white;
-}
-
-#mainstory {
-  font-size: 40px;
 }
 
 .tuna,
@@ -163,13 +167,6 @@ h2 {
   align-items: center;
 }
 
-.mainstory,
-.earth,
-.research,
-.cattext {
-  text-align: center;
-}
-
 .c2story1,
 .c2story2,
 .c1story1,
@@ -177,15 +174,6 @@ h2 {
 .c1story3 {
   display: flex;
   flex-direction: column;
-}
-
-.listitem {
-  display: block;
-  background-color: WhiteSmoke;
-  font-size: 12px;
-  color: DimGray;
-  border-bottom: 1px solid black;
-  padding: 15px 20px;
 }
 
 .newsbites {
@@ -197,6 +185,19 @@ h2 {
 .listmaster {
   margin-top: 40px;
 }
+
+.listitem {
+  display: block;
+  background-color: WhiteSmoke;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 15px 20px;
+}
+
+
+
+
 
 /* footer */
 
