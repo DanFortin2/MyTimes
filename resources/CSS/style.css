@@ -46,3 +46,11 @@ nav span {
 a {
   color: black;
 }
+
+/* main section */
+
+* {
+  border: 1px solid black; /*remove this after*/
+}
+
+/* footer */
