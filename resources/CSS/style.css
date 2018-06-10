@@ -166,6 +166,16 @@ p {
   text-align: center;
 }
 
+.c2story1,
+.c2story2,
+.c1story1,
+.c1story2,
+.c1story3 {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* footer */
 
 .footer {
