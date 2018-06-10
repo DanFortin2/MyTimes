@@ -53,10 +53,7 @@ a {
   border: 1px solid black; /*remove this after*/
 }
 
-.orca,
-.burger,
-.fbi,
-.newsbites {
+.orca, .burger, .fbi, .newsbites {
   font-size: 17px;
   font-family: Georgia;
   font-weight: bold;
