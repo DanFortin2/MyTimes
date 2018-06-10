@@ -117,19 +117,19 @@ p {
 
 
 .tuna {
-  background-image: url("../images/img-story-main.png");
+  background-image: url("../Images/img-story-main.png");
 }
 
 .c1story4 {
-  background-image: url("../images/img-story-2.png");
+  background-image: url("../Images/img-story-2.png");
 }
 
 .c1story5 {
-  background-image: url("../images/img-story-3.png");
+  background-image: url("../Images/img-story-3.png");
 }
 
 .cat {
-  background-image: url("../images/img-story-1.png");
+  background-image: url("../Images/img-story-1.png");
 }
 
 .tuna, .c1story4, .c1story5, .cat {
@@ -151,6 +151,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mainstory,
+.earth,
+.research,
+.cattext {
+  text-align: center;
 }
 
 /* footer */
