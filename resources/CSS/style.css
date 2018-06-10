@@ -7,12 +7,15 @@ header {
   font-weight: bold;
   align-items: center;
   background-color: white;
-  /*position: fixed;*/
+  position: fixed;
   z-index: 1;
   border-bottom: 1px solid black;
   width: 100%;
   height: 80px;
+  margin-top: -10px;
 }
+
+
 
 .logo {
   display: flex;
@@ -65,6 +68,8 @@ a {
   margin: 0 auto 40px auto;
   padding: 30px 30px 0 0;
   align-items: space-between;
+  top: 70px;
+  position: relative;
 }
 
 .main.column1 {
@@ -108,3 +113,8 @@ a {
 
 
 /* footer */
+
+.footer {
+  position: relative;
+  margin-top: 120px;
+}
