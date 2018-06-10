@@ -53,6 +53,15 @@ a {
   border: 1px solid black; /*remove this after*/
 }
 
+.orca,
+.burger,
+.fbi,
+.newsbites {
+  font-size: 17px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
 .main {
   display: flex;
   width: 80%;
@@ -83,5 +92,14 @@ a {
   display: inline-flex;
   width: 240px;
 }
+
+.c1story2 {
+  padding-top: 20px;
+}
+
+.c1story3 {
+  padding-top: 20px;
+}
+
 
 /* footer */
