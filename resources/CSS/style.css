@@ -47,10 +47,41 @@ a {
   color: black;
 }
 
-/* main section */
+/* main section*/
 
 * {
   border: 1px solid black; /*remove this after*/
+}
+
+.main {
+  display: flex;
+  width: 80%;
+  margin: 0 auto 40px auto;
+  padding: 30px 30px 0 0;
+  align-items: space-between;
+}
+
+.main.column1 {
+  display: inline-flex;
+  width: 630px;
+}
+
+.column1 {
+    margin-right: 30px;
+}
+
+.main.column2 {
+  display: inline-flex;
+  width: 300px;
+}
+
+.column2 {
+  margin-right: 30px;
+}
+
+.main.column3 {
+  display: inline-flex;
+  width: 240px;
 }
 
 /* footer */
