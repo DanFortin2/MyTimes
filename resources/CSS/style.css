@@ -60,7 +60,7 @@ a {
 /*main section*/
 
 body {
-  margin-left: 4px;
+  margin-left: 5px;
   margin-right: 0px;
 }
 
@@ -138,6 +138,15 @@ h2 {
   width: 300px;
 }
 
+.c1story2a,
+.c1story3a {
+  margin-bottom: 90px;
+}
+
+.c2story1 {
+  margin-bottom: 10px;
+}
+
 .c1story3 {
   width: 300px;
 }
@@ -193,6 +202,7 @@ h2 {
   color: DimGray;
   border-bottom: 1px solid black;
   padding: 15px 20px;
+  font-weight: bold;
 }
 
 
@@ -201,7 +211,37 @@ h2 {
 
 /* footer */
 
-.footer {
+footer {
   position: relative;
   margin-top: 120px;
+  background-color: mediumaquamarine;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: -10px;
+}
+
+.footer, #cctext {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.item {
+  padding: 10px 10px;
+}
+
+.footer {
+  margin-bottom: 10px;
+}
+
+#mytimesfooter {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 30px;
+  margin-right: 20px;
 }
