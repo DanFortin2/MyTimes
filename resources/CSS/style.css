@@ -59,14 +59,10 @@ a {
 
 /*main section*/
 
-body {
-  margin-left: 5px;
-  margin-right: 0px;
-}
 
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 140px;
   padding-top: 40px;
   top: 70px;
